@@ -1,4 +1,4 @@
-# telecom_churn_project
+# Tele-communications Customer Churn
 
 Personal project using the telco customer churn dataset: https://www.kaggle.com/blastchar/telco-customer-churn/data#
 
@@ -41,4 +41,7 @@ These are the libraries that were used for this project:
   
 ## EDA
 
+![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/charges%20tenure%20payment.png)
+
+It is interesting to see the visible trend of Mailed Checks being used for customers with lower Total Charges and Electronic Checks being the seemingly preferred payment method for customers with higher Total Charges.
 
