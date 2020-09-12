@@ -37,7 +37,7 @@ Again, the data was pulled from a Kaggle data set and was mostly cleaned to begi
 
 These are the libraries that were used for this project:
 
-<insert pic>
+![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/libs.PNG)
   
 ## EDA
 
