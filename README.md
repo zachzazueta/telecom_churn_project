@@ -45,3 +45,7 @@ These are the libraries that were used for this project:
 
 It is interesting to see the visible trend of Mailed Checks being used for customers with lower Total Charges and Electronic Checks being the seemingly preferred payment method for customers with higher Total Charges.
 
+![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/charges%20tenure%20churn.png)
+
+While it will require additional analysis, there does seem to be a trend that on any given tenure level, it is the customers with the highest Total Charges that appear to Churn (leave Telco services).
+
