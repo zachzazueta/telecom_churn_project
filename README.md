@@ -31,8 +31,6 @@ The data consists of the following categorical data:
 - TotalCharges - the customer's total charges over their tenure
 - Churn - whether the customer turned over/left in the last month
 
-Again, the data was pulled from a Kaggle data set and was mostly cleaned to begin with.
-
 ## Libraries
 
 These are the libraries that were used for this project:
@@ -48,4 +46,14 @@ It is interesting to see the visible trend of Mailed Checks being used for custo
 ![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/charges%20tenure%20churn.png)
 
 While it will require additional analysis, there does seem to be a trend that on any given tenure level, it is the customers with the highest Total Charges that appear to Churn (leave Telco services).
+
+After adjusting for multicollinearity, the Tenure, MonthlyCharges, and MultipleLines features were dropped.
+
+I then conducted chi-squared analysis to determine whether any of the remaining categorical features were independent of the target. Tests determined that gender and PhoneService were independent, so they were dropped.
+
+## Data cleaning
+
+The data was pulled from a Kaggle competition and was mostly cleaned to begin with. There were 7,043 observations of customers - 11 had no charges, so they were dropped, leaving a final data set of 7.032.
+
+Total charges was the only remaining continuous column, and I use StandardScaler() to transform that.
 
