@@ -57,6 +57,14 @@ The data was pulled from a Kaggle competition and was mostly cleaned to begin wi
 
 Total charges was the only remaining continuous column, and I use StandardScaler() to transform that.
 
+## Modeling
+
+I use an elbow plot to determine the appropriate number of clusters. I initialize the model with the Huang init approach for K Prototypes.
+
+I would have selected 3 clusters, but when using 3, none of the centroids had a Churn mode of Yes - I wanted to see if there was a group where the majority churn, so I stepped it up to 4 clusters and got the following output:
+
 ![alt_text](https://github.com/zachzazueta/telecom_churn_project/blob/master/cluster%20output.PNG)
+
+The below shap plot affords a few insights as to which characteristics explained the most variance in separating out the groups. E.g. TotalCharges was a heavy attribute for those in Cluster 4 (Class 3) and Internet Service played a lot into grouping members of Cluster 3 (Class 2) into that cluster.
 
 ![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/shap3.png)
