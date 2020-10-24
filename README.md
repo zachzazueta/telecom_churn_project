@@ -57,5 +57,6 @@ The data was pulled from a Kaggle competition and was mostly cleaned to begin wi
 
 Total charges was the only remaining continuous column, and I use StandardScaler() to transform that.
 
+![alt_text](https://github.com/zachzazueta/telecom_churn_project/blob/master/cluster%20output.PNG)
 
-![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/shap%202.PNG)
+![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/shap3.png)
