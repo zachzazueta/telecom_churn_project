@@ -61,6 +61,8 @@ Total charges was the only remaining continuous column, and I use StandardScaler
 
 I use an elbow plot to determine the appropriate number of clusters. I initialize the model with the Huang init approach for K Prototypes.
 
+![alt_text](https://github.com/zachzazueta/telecom_churn_project/blob/master/elbow.PNG)
+
 I would have selected 3 clusters, but when using 3, none of the centroids had a Churn mode of Yes - I wanted to see if there was a group where the majority churn, so I stepped it up to 4 clusters and got the following output:
 
 ![alt_text](https://github.com/zachzazueta/telecom_churn_project/blob/master/cluster%20output.PNG)
