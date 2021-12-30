@@ -69,4 +69,8 @@ I would have selected 3 clusters, but when using 3, none of the centroids had a 
 
 The below shap plot affords a few insights as to which characteristics explained the most variance in separating out the groups. E.g. TotalCharges was a heavy attribute for those in Cluster 4 (Class 3) and Internet Service played a lot into grouping members of Cluster 3 (Class 2) into that cluster.
 
+Analysis - using the above bullets, I was able to take this work to the next step to get to the "so what" of the work:
+- Customers who were in Class 3 had charges that were x% higher on average over the average monthly charges of those not in Class 3
+- Those in Class 2 had XYZ trends in their Internet Service that differed from other classes
+
 ![alt text](https://github.com/zachzazueta/telecom_churn_project/blob/master/shap3.png)
